@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32BE4BFA-2867-4FB7-99F8-B000771CAE22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PascaMail</RootNamespace>
+    <AssemblyName>PascaMail</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boundary\CetakAmplopSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\CetakAmplopSurat.Designer.cs">
+      <DependentUpon>CetakAmplopSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\CetakIjinPenelitian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\CetakIjinPenelitian.Designer.cs">
+      <DependentUpon>CetakIjinPenelitian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\CetakIjinPenelitianLain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\CetakIjinPenelitianLain.Designer.cs">
+      <DependentUpon>CetakIjinPenelitianLain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\CetakSuratKeterangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\CetakSuratKeterangan.Designer.cs">
+      <DependentUpon>CetakSuratKeterangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\CetakSuratKeteranganLainnya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\CetakSuratKeteranganLainnya.Designer.cs">
+      <DependentUpon>CetakSuratKeteranganLainnya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\AmplopSurat.cs">
+      <DependentUpon>AmplopSurat.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Boundary\FormKaprodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormKaprodi.Designer.cs">
+      <DependentUpon>FormKaprodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormLaporanSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormLaporanSurat.Designer.cs">
+      <DependentUpon>FormLaporanSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormMahasiswa.Designer.cs">
+      <DependentUpon>FormMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormProdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormProdi.Designer.cs">
+      <DependentUpon>FormProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormStatusSuratStaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormStatusSuratStaf.Designer.cs">
+      <DependentUpon>FormStatusSuratStaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormStudentStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormStudentStaff.Designer.cs">
+      <DependentUpon>FormStudentStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormUtama.Designer.cs">
+      <DependentUpon>FormUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\LaporanSurat.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanSurat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boundary\SuratKeteranganLainnya.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuratKeteranganLainnya.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_IjinPenelitian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_IjinPenelitian.Designer.cs">
+      <DependentUpon>UC_IjinPenelitian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_IjinPenelitianLain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_IjinPenelitianLain.Designer.cs">
+      <DependentUpon>UC_IjinPenelitianLain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_InputKaprodi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_InputKaprodi.Designer.cs">
+      <DependentUpon>UC_InputKaprodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_InputMhs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_InputMhs.Designer.cs">
+      <DependentUpon>UC_InputMhs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_InputProdi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_InputProdi.Designer.cs">
+      <DependentUpon>UC_InputProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_InputSS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_InputSS.Designer.cs">
+      <DependentUpon>UC_InputSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_SuratKeterangan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_SuratKeterangan.Designer.cs">
+      <DependentUpon>UC_SuratKeterangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_SuratKeteranganLain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_SuratKeteranganLain.Designer.cs">
+      <DependentUpon>UC_SuratKeteranganLain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahIP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahIP.Designer.cs">
+      <DependentUpon>UC_UbahIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahIPLain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahIPLain.Designer.cs">
+      <DependentUpon>UC_UbahIPLain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahSK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahSK.Designer.cs">
+      <DependentUpon>UC_UbahSK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahSKLain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boundary\UC_UbahSKLain.Designer.cs">
+      <DependentUpon>UC_UbahSKLain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\LoginControl.cs" />
+    <Compile Include="Control\PascaControl.cs" />
+    <Compile Include="dbPascaMail.cs">
+      <DependentUpon>dbPascaMail.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dbPascaMail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPascaMail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Kaprodi.cs" />
+    <Compile Include="Entity\Mahasiswa.cs" />
+    <Compile Include="Boundary\FormPengelola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\FormPengelola.Designer.cs">
+      <DependentUpon>FormPengelola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\MataKuliah.cs" />
+    <Compile Include="Entity\Prodi.cs" />
+    <Compile Include="Entity\Staff.cs" />
+    <Compile Include="Entity\Surat.cs" />
+    <Compile Include="Boundary\IjinPenelitian.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IjinPenelitian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boundary\IjinPenelitianLain.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IjinPenelitianLain.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boundary\SuratKeterangan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuratKeterangan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowException.cs" />
+    <EmbeddedResource Include="Boundary\CetakAmplopSurat.resx">
+      <DependentUpon>CetakAmplopSurat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\CetakIjinPenelitian.resx">
+      <DependentUpon>CetakIjinPenelitian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\CetakIjinPenelitianLain.resx">
+      <DependentUpon>CetakIjinPenelitianLain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\CetakSuratKeterangan.resx">
+      <DependentUpon>CetakSuratKeterangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\CetakSuratKeteranganLainnya.resx">
+      <DependentUpon>CetakSuratKeteranganLainnya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\AmplopSurat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AmplopSurat.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormKaprodi.resx">
+      <DependentUpon>FormKaprodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormLaporanSurat.resx">
+      <DependentUpon>FormLaporanSurat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormMahasiswa.resx">
+      <DependentUpon>FormMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormPengelola.resx">
+      <DependentUpon>FormPengelola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormProdi.resx">
+      <DependentUpon>FormProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormStatusSuratStaf.resx">
+      <DependentUpon>FormStatusSuratStaf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormStudentStaff.resx">
+      <DependentUpon>FormStudentStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormUtama.resx">
+      <DependentUpon>FormUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\LaporanSurat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanSurat.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\SuratKeteranganLainnya.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SuratKeteranganLainnya.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_IjinPenelitian.resx">
+      <DependentUpon>UC_IjinPenelitian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_IjinPenelitianLain.resx">
+      <DependentUpon>UC_IjinPenelitianLain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_InputKaprodi.resx">
+      <DependentUpon>UC_InputKaprodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_InputMhs.resx">
+      <DependentUpon>UC_InputMhs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_InputProdi.resx">
+      <DependentUpon>UC_InputProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_InputSS.resx">
+      <DependentUpon>UC_InputSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_SuratKeterangan.resx">
+      <DependentUpon>UC_SuratKeterangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\IjinPenelitian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IjinPenelitian.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\IjinPenelitianLain.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IjinPenelitianLain.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\SuratKeterangan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SuratKeterangan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_SuratKeteranganLain.resx">
+      <DependentUpon>UC_SuratKeteranganLain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_UbahIP.resx">
+      <DependentUpon>UC_UbahIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_UbahIPLain.resx">
+      <DependentUpon>UC_UbahIPLain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_UbahSK.resx">
+      <DependentUpon>UC_UbahSK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\UC_UbahSKLain.resx">
+      <DependentUpon>UC_UbahSKLain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="dbPascaMail.xsc">
+      <DependentUpon>dbPascaMail.xsd</DependentUpon>
+    </None>
+    <None Include="dbPascaMail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbPascaMail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dbPascaMail.xss">
+      <DependentUpon>dbPascaMail.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

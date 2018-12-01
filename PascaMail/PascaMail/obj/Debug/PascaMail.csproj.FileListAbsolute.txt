@@ -1,0 +1,102 @@
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\bin\Debug\PascaMail.exe.config
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\bin\Debug\PascaMail.exe
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\bin\Debug\PascaMail.pdb
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.FormPengelola.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Properties.Resources.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.csproj.GenerateResource.Cache
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.exe
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.pdb
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitian.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeterangan.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitian.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeterangan.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStatusSurat.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_StatusSurat.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormUtama.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLogin.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStudentStaff.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputSS.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormKaprodi.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputKaprodi.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitianLain.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitianLain.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeteranganLainnya.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeteranganLain.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSK.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSKLain.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIP.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIPLain.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormMahasiswa.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputMhs.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormProdi.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputProdi.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLaporanSurat.resources
+C:\Users\ANTONIUS\Documents\Visual Studio 2012\Projects\PascaMail\PascaMail\obj\Debug\PascaMail.csprojResolveAssemblyReference.cache
+D:\PascaMail\PascaMail\bin\Debug\PascaMail.exe.config
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.exe
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.pdb
+D:\PascaMail\PascaMail\bin\Debug\PascaMail.exe
+D:\PascaMail\PascaMail\bin\Debug\PascaMail.pdb
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitian.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitianLain.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeterangan.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeteranganLainnya.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormKaprodi.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLaporanSurat.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormMahasiswa.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.FormPengelola.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormProdi.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStudentStaff.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormUtama.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLogin.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitian.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitianLain.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputKaprodi.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputMhs.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputProdi.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputSS.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeterangan.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeteranganLain.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIP.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIPLain.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSK.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSKLain.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Properties.Resources.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.csproj.GenerateResource.Cache
+F:\PascaMail\PascaMail\bin\Debug\PascaMail.exe.config
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.exe
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.pdb
+F:\PascaMail\PascaMail\bin\Debug\PascaMail.exe
+F:\PascaMail\PascaMail\bin\Debug\PascaMail.pdb
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.csprojResolveAssemblyReference.cache
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakAmplopSurat.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitian.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakIjinPenelitianLain.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeterangan.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakSuratKeteranganLainnya.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormKaprodi.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLaporanSurat.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormMahasiswa.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.FormPengelola.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormProdi.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStudentStaff.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormUtama.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormLogin.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitian.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_IjinPenelitianLain.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputKaprodi.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputMhs.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputProdi.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_InputSS.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeterangan.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_SuratKeteranganLain.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIP.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahIPLain.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSK.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.UC_UbahSKLain.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Properties.Resources.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.csproj.GenerateResource.Cache
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.CetakAmplopSurat.resources
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.csprojResolveAssemblyReference.cache
+D:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStatusSuratStaf.resources
+F:\PascaMail\PascaMail\obj\Debug\PascaMail.Boundary.FormStatusSuratStaf.resources
